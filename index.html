@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/main.css" />
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="./src/style/main.css" />
+
+    <!--owl css-->
+    <link rel="stylesheet" href="./src/style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./src/style/owl/owl.theme.default.min.css" />
+
+    <title>POTTERFLIX</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2 class="logo">POTTERFLIX</h2>
+        <nav>
+          <a href="#">Inicio</a>
+          <a href="#">Séries</a>
+          <a href="#">Filmes</a>
+          <a href="#">Documentários</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="filme-principal">
+        <div class="container">
+          <h3 class="titulo">WIZARDING WORLD</h3>
+          <p class="descricao">
+            Prepare suas varinhas! Explore o mundo de Harry Potter e Animais Fantásticos.
+          </p>
+          <div class="botoes">
+            <button role="button" class="botao">
+              <i class="fas fa-play"></i>
+              ASSISTIR AGORA
+            </button>
+            <button role="button" class="botao">
+              <i class="fas fa-info-circle"></i>
+              MAIS INFORMAÇÕES
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <iframe
+            id="movies"
+            width="100%"
+            height="500px"
+            src="https://www.youtube.com/embed/NBClQpIsEXk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <div class="carrosel-filmes">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img
+            id="hp1"
+            class="box-filme"
+            src="./src/assets/hp1.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+        <div class="item">
+          <img
+            id="hp2"
+            class="box-filme"
+            src="./src/assets/hp2.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+        <div class="item">
+          <img
+            id="hp3"
+            class="box-filme"
+            src="./src/assets/hp3.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+        <div class="item">
+          <img
+            id="hp4"
+            class="box-filme"
+            src="./src/assets/hp4.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+        <div class="item">
+          <img
+            id="hp5"
+            class="box-filme"
+            src="./src/assets/hp5.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+        <div class="item">
+          <img
+            id="hp6"
+            class="box-filme"
+            src="./src/assets/hp6.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+        <div class="item">
+          <img
+            id="hp7"
+            class="box-filme"
+            src="./src/assets/hp7.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+        <div class="item">
+          <img
+            id="hp8"
+            class="box-filme"
+            src="./src/assets/hp8.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+        <div class="item">
+          <img
+            id="hp9"
+            class="box-filme"
+            src="./src/assets/hp9.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+        <div class="item">
+          <img
+            id="hp10"
+            class="box-filme"
+            src="./src/assets/hp10.jpg"
+            onclick="changeMovie(this.id)"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="./src/js/owl/jquery.min.js"></script>
+    <script src="./src/js/owl/owl.carousel.min.js"></script>
+    <script src="./src/js/owl/setup.js"></script>
+  </body>
+</html>
