@@ -1,2 +1,2 @@
 # potterflix
-Projeto clone Neteflix --> Potterflix
+Projeto clone Netflix --> Potterflix
